@@ -1,0 +1,112 @@
+[debug] [2024-03-13T21:07:06.812Z] ----------------------------------------------------------------------
+[debug] [2024-03-13T21:07:06.815Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-03-13T21:07:06.816Z] CLI Version:   13.4.1
+[debug] [2024-03-13T21:07:06.816Z] Platform:      win32
+[debug] [2024-03-13T21:07:06.817Z] Node Version:  v18.17.0
+[debug] [2024-03-13T21:07:06.818Z] Time:          Thu Mar 14 2024 02:37:06 GMT+0530 (India Standard Time)
+[debug] [2024-03-13T21:07:06.818Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-13T21:07:06.940Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-13T21:07:06.940Z] > authorizing via signed-in user (rash102002@gmail.com)
+[debug] [2024-03-13T21:07:07.092Z] java version "17.0.7" 2023-04-18 LTS
+
+[debug] [2024-03-13T21:07:07.093Z] Java(TM) SE Runtime Environment (build 17.0.7+8-LTS-224)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.7+8-LTS-224, mixed mode, sharing)
+
+[debug] [2024-03-13T21:07:07.108Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore"}}
+[debug] [2024-03-13T21:07:07.124Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-13T21:07:07.124Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-13T21:07:07.124Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-13T21:07:07.124Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2024-03-13T21:07:07.126Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-03-13T21:07:07.132Z] [hub] writing locator at C:\Users\hp\AppData\Local\Temp\hub-snippet-f41a9.json
+[debug] [2024-03-13T21:07:07.149Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-13T21:07:07.149Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-03-13T21:07:07.150Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2024-03-13T21:07:07.154Z] defaultcredentials: writing to file C:\Users\hp\AppData\Roaming\firebase\rash102002_gmail_com_application_default_credentials.json
+[debug] [2024-03-13T21:07:07.156Z] Setting GAC to C:\Users\hp\AppData\Roaming\firebase\rash102002_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\hp\\AppData\\Roaming\\firebase\\rash102002_gmail_com_application_default_credentials.json"}}
+[debug] [2024-03-13T21:07:07.158Z] > refreshing access token with scopes: []
+[debug] [2024-03-13T21:07:07.159Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-03-13T21:07:07.160Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-13T21:07:07.421Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-03-13T21:07:07.421Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-03-13T21:07:07.435Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/snippet-f41a9/adminSdkConfig [none]
+[debug] [2024-03-13T21:07:08.175Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/snippet-f41a9/adminSdkConfig 200
+[debug] [2024-03-13T21:07:08.175Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/snippet-f41a9/adminSdkConfig {"projectId":"snippet-f41a9","storageBucket":"snippet-f41a9.appspot.com"}
+[warn] !  firestore: Cloud Firestore Emulator does not support multiple databases yet. {"metadata":{"emulator":{"name":"firestore"},"message":"Cloud Firestore Emulator does not support multiple databases yet."}}
+[warn] !  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2024-03-13T21:07:08.195Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-13T21:07:08.196Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-03-13T21:07:08.196Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\hp\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.2.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","snippet-f41a9","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\hp\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"snippet-f41a9\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2024-03-13T21:07:21.537Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-03-13T21:07:21.537Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-03-13T21:07:21.537Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\hp\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\hp\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-03-13T21:07:21.738Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2024-03-13T21:07:21.738Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "D:\snipURL-project\snipurl\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\snipURL-project\\snipurl\\functions\" for Cloud Functions..."}}
+[debug] [2024-03-13T21:07:21.811Z] Validating nodejs source
+[debug] [2024-03-13T21:07:23.850Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2024-03-13T21:07:23.850Z] Building nodejs source
+[debug] [2024-03-13T21:07:23.851Z] Failed to find version of module node: reached end of search path D:\snipURL-project\snipurl\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2024-03-13T21:07:23.854Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-03-13T21:07:23.871Z] Found firebase-functions binary at 'D:\snipURL-project\snipurl\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8172
+
+[debug] [2024-03-13T21:07:24.852Z] Got response from /__/functions.yaml {"endpoints":{},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: . {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: ."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4001/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4001/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4001/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4001/firestore │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-03-13T21:14:39.332Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/snippet-f41a9/trigger_multicast [none]
+[debug] [2024-03-13T21:14:39.334Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/snippet-f41a9/trigger_multicast {"eventId":"87b84e10-b43f-42f8-b49b-ea01bd1d7284","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/snippet-f41a9","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2024-03-13T21:14:39.329Z","data":{"uid":"NKd3RTDMIDDzA0MuXXR39sy0st4k","email":"ritzie1001@gmail.com","emailVerified":false,"metadata":{"creationTime":"2024-03-13T21:14:39.319Z","lastSignInTime":"2024-03-13T21:14:39.319Z"},"customClaims":{},"providerData":[{"providerId":"password","email":"ritzie1001@gmail.com","federatedId":"ritzie1001@gmail.com","rawId":"ritzie1001@gmail.com"}]}}
+[debug] [2024-03-13T21:14:39.366Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/snippet-f41a9/trigger_multicast 200
+[debug] [2024-03-13T21:14:39.366Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/snippet-f41a9/trigger_multicast {"status":"multicast_acknowledged"}

@@ -1,6 +1,7 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography, Button , Box } from '@mui/material';
+import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { auth } from '../../firebase';
+
 const Navbar = () => {
   const handleLogout = () => {
     auth.signOut()
@@ -15,17 +16,17 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6">SNIPPET</Typography>
-          <Box ml="auto">
-            <Button color="inherit">Dashboard</Button>
-            <Button onClick={handleLogout} color="inherit">Logout</Button> {/* Fix onclick to onClick */}
-          </Box>
-        </Toolbar>
-      </AppBar>
-    </div>
+    <AppBar position="static" elevation={0} color="transparent">
+      <Toolbar>
+        <Typography variant="h6" component="div" sx={{ flexGrow: 1, fontWeight: 'bold' }}>
+          SNIPPET
+        </Typography>
+        <Box>
+          <Button color="inherit" sx={{ marginRight: '15px' }}>Dashboard</Button>
+          <Button onClick={handleLogout} color="inherit">Logout</Button>
+        </Box>
+      </Toolbar>
+    </AppBar>
   );
 };
 

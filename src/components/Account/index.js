@@ -25,7 +25,10 @@ const Account = () => {
     try {
       const link = {
         name,
-        longURL,
+        longURL:
+        longURL.includes("http://") || longURL.includes("https://") ?
+        longURL :
+        `http://${longURL}`,
         createdAt: serverTimestamp(), // Use client-side timestamp for now
         shortCode: nanoid(6),
         totalClicks: 0,
